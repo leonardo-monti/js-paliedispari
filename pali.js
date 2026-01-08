@@ -9,3 +9,10 @@ function isPalindroma(parola) {
         return false;
     }
 }
+const inserimento = isPalindroma(parolaUtente);
+
+if (inserimento) {
+    alert("La parola è palindroma");
+} else {
+    alert("La parola NON è palindroma");
+}
