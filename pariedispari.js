@@ -7,8 +7,6 @@ function randomNumber() {
 }
 const numeroCpu = randomNumber();
 
-const somma = numeroUtente + numeroCpu
-
 function isPari(numero) {
     if (numero % 2 === 0) {
         return "pari";
@@ -18,4 +16,10 @@ function isPari(numero) {
     }
 }
 
-const risultato = isPari(somma);
+const risultato = isPari(numeroUtente + numeroCpu);
+
+if (risultato === sceltaUtente) {
+    alert("Hai vinto");
+} else {
+    alert("Ha vinto perso");
+}
