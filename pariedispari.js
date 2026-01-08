@@ -21,5 +21,5 @@ const risultato = isPari(numeroUtente + numeroCpu);
 if (risultato === sceltaUtente) {
     alert("Hai vinto");
 } else {
-    alert("Ha vinto perso");
+    alert("Hai perso");
 }
